@@ -3,6 +3,9 @@ body {
 }
 
 header {
+    border: .4em solid rgb(255, 58, 17);
+    margin: 1em;
+    padding: 1em;
     background-color: gray;
 }
 
@@ -10,10 +13,10 @@ article {
     background-color: dimgray;
 }
 
-footer {
-    background-color: lightslategrey;
+aside {
+    background-color: darkslategrey;
 }
 
-aside {
-    background-color: white;
+footer {
+    background-color: slategrey;
 }
