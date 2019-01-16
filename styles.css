@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: gray;
+}
+
+article {
+    background-color: dimgray;
+}
+
+footer {
+    background-color: lightslategrey;
+}
+
+aside {
+    background-color: white;
+}
