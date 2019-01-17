@@ -1,0 +1,46 @@
+/*reset rule*/
+body, header, article, aside, footer {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+header {
+    border: .4em solid rgb(255, 58, 17);
+    margin: .5em;
+    padding: 1em;
+    background-color: gray;
+}
+
+article {
+    border: .4em dotted rgb(255, 58, 17);
+    margin: .5em;
+    padding: 1em;
+    background-color: dimgray;
+    width: 60%;
+    float: right;
+}
+
+aside {
+    border: .4em green inset;
+    margin: .5em;
+    padding: 1em;
+    float: left;
+    background-color: darkslategrey;
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    border: .4em orangered outset;
+    margin: .5em;
+    padding: 1em;
+    background-color: slategrey;
+}

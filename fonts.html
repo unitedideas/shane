@@ -1,0 +1,35 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Roboto+Condensed|Roboto|Source+Sans+Pro"
+          rel="stylesheet">
+</head>
+
+
+<body id="body">
+</body>
+
+<script>
+
+    print_fonts()
+
+
+    function print_fonts() {
+        let font_list = ["Roboto", 'Open Sans', 'Lato', 'Montserrat', 'Source Sans Pro', 'Roboto Condensed']
+
+        for (let font in font_list) {
+            console.log(font)
+            let text = document.createTextNode("PERFORMANCE HOMES"  + "\n" + "performance homes - Font:" + font_list[font]);
+            let new_p = document.createElement("P");
+            new_p.style.fontFamily = font_list[font]
+            new_p.style.fontSize = "30"
+            new_p.appendChild(text)
+            document.getElementById('body').appendChild(new_p);
+        }
+    }
+
+</script>
+
+
+
+
+
+
