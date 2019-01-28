@@ -2,27 +2,38 @@
 Author: Shane Cheek
 Assignment: 4
 */
+body header article aside footer table nav {
+    margin: 0;
+    padding: 0;
+}
 
-body{
+aside{
+    text-align: center;
+}
+aside p{
+    padding: 0;
+    margin: 0;
+}
+
+body {
     background-color: black;
     color: lightgrey;
 }
 
-ol{
-    list-style-type: none;
-}
-
-dt{
+dt {
     font-weight: 900;
 }
+table .light{
+    background-color: #c3b3c2;
+}
 
-nav{
-    color: orangered;
+nav {
+    color: #FF4500;
     background-color: orange;
     text-align: center;
 }
 
-nav li{
+nav li {
     display: inline-block;
     margin: .5em;
     font-size: 1.5em;
@@ -31,6 +42,76 @@ nav li{
 
 .skipnavigation a {
     position: absolute;
-    left: -100px;
+    left: -10000px;
 }
+
+table {
+    color: #000;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 4px dashed #FF4500;
+
+}
+
+th, td {
+  border: 2px solid #f1f4ff;
+}
+
+table tr{
+    background-color: burlywood;
+    width: 100%;
+    border-spacing: 0;
+}
+
+
+footer {
+    border: #FF4500 solid;
+    text-align: center;
+    clear: both;
+}
+
+caption{
+    text-align: left;
+}
+
+aside {
+}
+
+img {
+    width: 100%;
+}
+
+
+table th {
+    background-color: #48bfde;
+}
+
+article {
+
+}
+
+.container {
+    padding: 0 10em 0 10em;
+}
+
+.row {
+    display: flex;
+
+}
+
+.column {
+    float: right;
+    width: 50%;
+    padding: 10px;
+
+}
+
+h3 {
+    color: #FFF;
+    -webkit-text-fill-color: #FF4500; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff0a07;
+}
+
 
