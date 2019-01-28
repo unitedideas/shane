@@ -1,3 +1,31 @@
+/*
+Author: Shane Cheek
+Assignment: 4
+*/
+
 body{
-    background-color: bisque;
+    background-color: black;
+    color: lightgrey;
 }
+
+ol{
+    list-style-type: none;
+}
+
+dt{
+    font-weight: 900;
+}
+
+nav{
+    color: orangered;
+    background-color: orange;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin: .5em;
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
