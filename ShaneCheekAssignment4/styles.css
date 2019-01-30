@@ -18,7 +18,7 @@ aside p {
 
 body {
     background-color: black;
-    color: lightgrey;
+    color: #ffffff;
 }
 
 dt {
@@ -26,7 +26,7 @@ dt {
 }
 
 .light {
-    background-color: #c3b3c2;
+    background-color: darkslategray;
 }
 
 .firstcol {
@@ -35,8 +35,8 @@ dt {
 }
 
 nav {
-    color: #FF4500;
-    background-color: orange;
+    color: rgba(192, 192, 192, 0.99);
+    background-color: rgb(255, 153, 0);
     text-align: center;
 }
 
@@ -57,12 +57,12 @@ table {
     width: 100%;
     text-align: center;
     border-collapse: collapse;
-    border: 4px dashed #FF4500;
+    border: 4px solid rgb(255, 153, 0);;
 
 }
 
 th, td {
-    border: 2px solid #f1f4ff;
+    border: 2px solid #d9d9d9;
 }
 
 
@@ -84,7 +84,7 @@ img {
 
 
 table th {
-    background-color: #48bfde;
+    background-color: dimgrey;
 }
 
 article {
@@ -112,10 +112,10 @@ article {
 }
 
 h3 {
-    color: #FFF;
-    -webkit-text-fill-color: #FF4500; /* Will override color (regardless of order) */
+    color: rgb(255, 153, 0);;
+    -webkit-text-fill-color: rgb(255, 153, 0);; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ff0a07;
+    -webkit-text-stroke-color: rgb(255, 153, 0);;
 }
 
 
